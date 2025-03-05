@@ -1,0 +1,23 @@
+{
+    "errors": [
+      {
+        "code": "123",
+        "source": "/data/attributes/firstName",
+        "title": "Value is too short",
+        "detail": "First name must contain at least two characters."
+      },
+      {
+        "code": "225",
+        "source": "/data/attributes/password",
+        "title": "Passwords must contain a letter, number, and punctuation character.",
+        "detail": "The password provided is missing a punctuation character."
+      },
+      {
+        "code": "226",
+        "source": "/data/attributes/password",
+        "title": "Password and password confirmation do not match."
+      }
+    ]
+  }
+  
+  
