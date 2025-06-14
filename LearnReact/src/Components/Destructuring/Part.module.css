@@ -1,0 +1,27 @@
+.super_hit{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+
+}
+.average{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+}
+.timepass{
+    background-color: rgb(15, 115, 230);
+}
+.nameFont1{
+    font-family: cursive;
+    font-size: 30px;
+}
+.nameFont2{
+    font-family:'Courier New', Courier, monospace ;
+    font: 50px;
+}
+.nameFontColor1{
+    color: red;
+}
+.nameFontColor2{
+    color: green;
+}
+

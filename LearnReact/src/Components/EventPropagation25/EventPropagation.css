@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    height: 100vh;  /* Take up full screen height */
+  }
+  
+  .g-div {
+    position: relative;  /* Relative positioning for the grandparent */
+    width: 300px;
+    height: 300px;
+    border: 2px solid blueviolet;
+    border-radius: 20px;
+    color: blueviolet;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .p-div {
+    position: absolute; /* Absolute positioning for the parent inside grandparent */
+    top: 50%; /* Centering within the grandparent */
+    left: 50%; /* Centering within the grandparent */
+    transform: translate(-50%, -50%); /* Adjust the center positioning */
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    border-radius: 30px;
+    color: blue;
+    padding: 15px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .c-div {
+    position: absolute; /* Absolute positioning for the child inside the parent */
+    top: 50%; /* Centering within the parent */
+    left: 50%; /* Centering within the parent */
+    transform: translate(-50%, -50%); /* Adjust the center positioning */
+    width: 150px;
+    height: 150px;
+    border: 2px solid brown;
+    border-radius: 40px;
+    color: brown;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
