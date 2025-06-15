@@ -11,7 +11,7 @@ const Navbar = () => {
         setIsDropDownOpen(false);
     }
   return (
-    <nav className='flex items-center justify-between p-4'>
+    <nav className='flex items-center justify-between p-4 bg-white'>
         <div className='flex items-center space-x-2'>
             <img src={logo} alt="logo img" className='h-10 w-auto' />
             <p>My Dream Place</p>
@@ -25,7 +25,7 @@ const Navbar = () => {
         </div>
         {/* Notification and profile  */}
         {/* Adds horizontal space between child items  mr-[9rem]	Adds a right margin of 9rem*/}
-        <div className="flex items-center space-x-4 mr-[9rem] relative">
+        <div className="flex items-center space-x-4 mr-[9rem] relative cursor-pointer">
             <FaUser size={20} onClick = {handedDropDownToggle}/>
             {isDropDownOpen && (
                 <div

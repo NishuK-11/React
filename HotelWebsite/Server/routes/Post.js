@@ -10,3 +10,4 @@ routes.put("/update-post/:id",updatePostController);
 routes.delete("/delete-post/:id",deletePostController);
 
 export default routes;
+

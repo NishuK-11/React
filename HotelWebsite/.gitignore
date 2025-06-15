@@ -1,0 +1,20 @@
+# Node backend
+/Server/node_modules
+/Server/.env
+/Server/logs
+/Server/*.log
+
+# React frontend
+/Client/node_modules
+/Client/.env
+/Client/build
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# IDEs
+.vscode
+.idea
